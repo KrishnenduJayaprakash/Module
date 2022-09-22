@@ -1,0 +1,65 @@
+<html>
+<head>
+
+<script>
+
+function salary()
+{
+let a=document.getElementById("t3").value;   
+let b=document.getElementById("t4").value;
+let c=document.getElementById("t5").value;
+let d=parseInt(t3)+parseInt(t4);
+document.getElementById("t6").innerHTML=d;  
+}
+
+</script>
+
+<style>
+
+body{
+
+background-color:skyblue;
+
+}
+.d1
+{
+
+border:2px solid black;
+width:300px;
+padding:100px;
+margin-left:800px;
+margin-top:100px;
+margin-bottom:200px;
+background-color: pink;
+color:blue;
+}
+
+
+</style>
+
+</head>
+
+<div align="center" class="d1">
+
+<form>
+<table>
+<tr>Employee id</tr></br>
+<tr><input id="t1" type="text"  placeholder="Employee ID"></tr></br></br>
+
+<tr><input id="t2" type="text"  placeholder="Employee Name"></tr></br></br>
+
+<tr><input id="t3" type="text"  placeholder="Basic Salary"></tr></br></br>
+
+<tr><input id="t4" type="text"  placeholder="HR"></tr></br></br>
+
+<tr><input id="t5" type="text"  placeholder="PF"></tr></br></br>
+
+<tr>
+<button onclick="salary()" style=background-color:skyblue;border-color:black;color:Black>Gross Salary</button></tr></br>
+<p id="t6"> </p>
+<!--<a href="">Forgot Password</a>
+
+</form>
+</div>
+
+</html>
